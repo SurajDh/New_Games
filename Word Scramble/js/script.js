@@ -46,7 +46,7 @@ const checkWord = () => {
         return (overlayElement.style.display='block');
     }   
     else if(userWord !== correctWord){
-        overlayElement.children[1].textContent='Oops! ' + inputField.value.toUpperCase() + ' is not a correct word';
+        overlayElement.children[1].textContent='Oops! ' + inputField.value.toUpperCase() + ' is not the correct word';
         return (overlayElement.style.display='block');
     }    
     else {
