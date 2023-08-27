@@ -186,6 +186,6 @@ margin: 0;
   .modal{
       left:  calc(50% - 20rem);
       width: 25rem;
-     margin: 1.6rem;
+     margin: 3.6rem;
   }
 }
