@@ -17,7 +17,8 @@ const initTimer = maxTime => {
             maxTime--;
             return timeText.innerText = maxTime;
         }
-        alert(`Time off! ${correctWord.toUpperCase()} was the correct word`);
+        overlayElement.children[1].textContent='Time off! '+ `${correctWord.toUpperCase()}`+ ' was the correct word';
+        overlayElement.style.display='block';
         initGame();
     }, 1000);
 }
